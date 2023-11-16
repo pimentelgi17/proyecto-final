@@ -1,0 +1,66 @@
+@charset "UTF-8";
+header {
+  background-color: #002546;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+nav {
+  background-color: #87cefa;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+body {
+  background-color: #d1ebf7;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+/* Estilos adicionales para mejorar la presentación */
+#nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+#nosotros img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-group .card {
+  background-color: #87cefa;
+}
+
+.list-group {
+  background-color: aquamarine;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+footer {
+  background-color: #002546;
+  color: white;
+}
+footer .flexbox-container {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+footer .flexbox-container > div {
+  width: 50%;
+  padding: 10px;
+}
+footer .flexbox-container > div:first-child {
+  margin-right: 20px;
+}
+footer .iframe-derecha {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  border: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

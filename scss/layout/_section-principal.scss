@@ -1,0 +1,30 @@
+
+/* Estilos adicionales para mejorar la presentación */
+#nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#nosotros img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.card-group {
+    .card {
+      background-color: #87cefa; 
+      // Otros estilos para la card...
+    }
+  }
+
+  .list-group {
+    background-color:aquamarine;
+    font-family: $font-fuente;
+  }
